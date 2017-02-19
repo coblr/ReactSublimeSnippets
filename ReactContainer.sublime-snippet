@@ -1,0 +1,35 @@
+<snippet>
+<content><![CDATA[
+import React from 'react';
+import {connect} from 'react-redux';
+
+import './${1:ComponentName}.component.css';
+
+export class ${1:ComponentName} extends React.PureComponent {
+  componentDidMount(){
+    // make any data requests here
+  }
+
+	render(){
+		return (<div className="${1:ComponentName}">
+			Rendering ${1:ComponentName}
+		</div>)
+	}
+}
+
+${1:ComponentName}.propTypes = {};
+
+const mapStateToProps = state => {};
+
+const mapDispatchToProps = dispatch => {};
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(${1:ComponentName});
+]]></content>
+<tabTrigger>ReactContainer</tabTrigger>
+<description>
+	Creates a React container ('smart') component.
+</description>
+</snippet>

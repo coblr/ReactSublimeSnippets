@@ -1,0 +1,20 @@
+<snippet>
+<content><![CDATA[
+import {fromJS, toJS} from 'immutable';
+
+import ${1:ModuleName} as reducer, * as creators from './${1:ModuleName}.component';
+
+describe('${1:ModuleName} Module', () => {
+	it('${2:name your test}', () => {
+		const state = fromJS({${3:key:values before the change}});
+		const action = creators.${4:nameOfFnToTest}(${5:anyPayload?});
+		const nextState = reducer(state, action);
+		expect(nextState).toEqual(fromJS({${6:key:values after the change}}));
+	});
+});
+]]></content>
+<tabTrigger>ReactModuleSpec</tabTrigger>
+<description>
+	Creates a React presentation ('dumb') component.
+</description>
+</snippet>
