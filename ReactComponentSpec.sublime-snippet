@@ -10,8 +10,9 @@ describe('${1:ComponentName} Component', () => {
 	const initialProps = {$2};
 
 	it('renders without crashing', () => {
+		const props = initialProps;
 		let component = shallow(<${1:ComponentName} {...props} />);
-		expect(comonent).toBeDefined();
+		expect(component).toBeDefined();
 	});
 });
 ]]></content>
