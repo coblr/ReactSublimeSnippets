@@ -6,9 +6,9 @@ import {connect} from 'react-redux';
 import './${1:ContainerName}.container.css';
 
 export class ${1:ContainerName} extends React.PureComponent {
-  componentDidMount(){
-    // make any data requests here
-  }
+	componentDidMount(){
+		// make any data requests here
+	}
 
 	render(){
 		return (<div className="${1:ContainerName}">
@@ -24,8 +24,8 @@ const mapStateToProps = state => {};
 const mapDispatchToProps = dispatch => {};
 
 export default connect(
-  mapStateToProps,
-  mapDispatchToProps
+	mapStateToProps,
+	mapDispatchToProps
 )(${1:ContainerName});
 ]]></content>
 <tabTrigger>ReactContainer</tabTrigger>

@@ -10,7 +10,7 @@ describe('${1:ContainerName} Container', () => {
 	const initialProps = {$2};
 
 	it('renders without crashing', () => {
-    const props = initialProps;
+		const props = initialProps;
 		let container = shallow(<${1:ContainerName} {...props} />);
 		expect(container).toBeDefined();
 	});
