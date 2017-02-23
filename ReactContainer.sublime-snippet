@@ -3,21 +3,21 @@
 import React from 'react';
 import {connect} from 'react-redux';
 
-import './${1:ComponentName}.component.css';
+import './${1:ContainerName}.container.css';
 
-export class ${1:ComponentName} extends React.PureComponent {
+export class ${1:ContainerName} extends React.PureComponent {
   componentDidMount(){
     // make any data requests here
   }
 
 	render(){
-		return (<div className="${1:ComponentName}">
-			Rendering ${1:ComponentName}
+		return (<div className="${1:ContainerName}">
+			Rendering ${1:ContainerName}
 		</div>)
 	}
 }
 
-${1:ComponentName}.propTypes = {};
+${1:ContainerName}.propTypes = {};
 
 const mapStateToProps = state => {};
 
@@ -26,7 +26,7 @@ const mapDispatchToProps = dispatch => {};
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(${1:ComponentName});
+)(${1:ContainerName});
 ]]></content>
 <tabTrigger>ReactContainer</tabTrigger>
 <description>
