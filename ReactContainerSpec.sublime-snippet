@@ -1,10 +1,9 @@
 <snippet>
 <content><![CDATA[
 import React from 'react';
-import ReactDOM from 'react-dom';
 import {shallow} from 'enzyme';
 
-import {${1:ContainerName}} from './${1:ContainerName}.container';
+import {${1:ContainerName}} from './${1:ContainerName}';
 
 describe('${1:ContainerName} Container', () => {
 	const initialProps = {$2};
