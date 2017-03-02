@@ -4,7 +4,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {shallow} from 'enzyme';
 
-import {${1:ComponentName}} from './${1:ComponentName}.component';
+import {${1:ComponentName}} from './${1:ComponentName}';
 
 describe('${1:ComponentName} Component', () => {
 	const initialProps = {$2};
