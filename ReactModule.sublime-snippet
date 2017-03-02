@@ -14,23 +14,26 @@ const initialState = fromJS({
 	$4
 });
 
-export default reducer = (state, action) => {
+export default (state = initialState, action) => {
 	const payload = action.payload;
 	switch(action.type){
-		case ${1:ACTION_NAME}: 
+		case ${1:ACTION_NAME}: { 
 			return state$8;
+		}
+		
+		default: return state;
 	}
 }
 
 ////////////
 /// Creators
 
-export ${5:creatorFnName} = ($6) => ({
+export const ${5:creatorFnName} = ($6) => ({
 	type: ${1:ACTION_NAME}$7
 });
 ]]></content>
 <tabTrigger>ReactModule</tabTrigger>
 <description>
-	Creates a React presentation ('dumb') component.
+	Creates a Redux Module (actions, creators and reducer).
 </description>
 </snippet>
