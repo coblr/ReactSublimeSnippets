@@ -2,7 +2,7 @@
 <content><![CDATA[
 import React from 'react';
 
-import './${1:ComponentName}.component.css';
+import './${1:ComponentName}.css';
 
 export class ${1:ComponentName} extends React.PureComponent {
 	render(){
