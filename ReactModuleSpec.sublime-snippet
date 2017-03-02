@@ -1,8 +1,8 @@
 <snippet>
 <content><![CDATA[
-import {fromJS, toJS} from 'immutable';
+import {fromJS} from 'immutable';
 
-import ${1:ModuleName} as reducer, * as creators from './${1:ModuleName}.component';
+import reducer, * as creators from './${1:ModuleName}';
 
 describe('${1:ModuleName} Module', () => {
 	it('${2:name your test}', () => {
@@ -15,6 +15,6 @@ describe('${1:ModuleName} Module', () => {
 ]]></content>
 <tabTrigger>ReactModuleSpec</tabTrigger>
 <description>
-	Creates a React presentation ('dumb') component.
+	Creates a test spec for a React Module.
 </description>
 </snippet>
