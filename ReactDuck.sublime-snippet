@@ -5,7 +5,7 @@ import {fromJS} from 'immutable';
 ////////////
 /// Actions
 
-const ${1:ACTION_NAME} = '${2:appName}/${3:ModuleName}/${1:ACTION_NAME}';
+const ${1:ACTION_NAME} = '${2:appName}/${3:DuckName}/${1:ACTION_NAME}';
 
 ////////////
 /// Reducer
@@ -32,8 +32,8 @@ export const ${5:creatorFnName} = ($6) => ({
 	type: ${1:ACTION_NAME}$7
 });
 ]]></content>
-<tabTrigger>ReactModule</tabTrigger>
+<tabTrigger>ReactDuck</tabTrigger>
 <description>
-	Creates a Redux Module (actions, creators and reducer).
+	Creates a Redux Duck (actions, creators and reducer).
 </description>
 </snippet>
