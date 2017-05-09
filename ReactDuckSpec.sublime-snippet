@@ -13,8 +13,8 @@ describe('${1:ModuleName} Module', () => {
 	});
 });
 ]]></content>
-<tabTrigger>ReactModuleSpec</tabTrigger>
+<tabTrigger>ReactDuckSpec</tabTrigger>
 <description>
-	Creates a test spec for a React Module.
+	Creates a test spec for a React/Redux Duck.
 </description>
 </snippet>
