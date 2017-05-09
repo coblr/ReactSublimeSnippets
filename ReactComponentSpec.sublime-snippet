@@ -1,7 +1,6 @@
 <snippet>
 <content><![CDATA[
 import React from 'react';
-import ReactDOM from 'react-dom';
 import {shallow} from 'enzyme';
 
 import {${1:ComponentName}} from './${1:ComponentName}';
