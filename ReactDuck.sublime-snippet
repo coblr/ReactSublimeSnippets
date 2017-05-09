@@ -5,7 +5,7 @@ import {fromJS} from 'immutable';
 ////////////
 /// Actions
 
-const ${1:ACTION_NAME} = '${2:appName}/${3:DuckName}/${1:ACTION_NAME}';
+export const ${1:ACTION_NAME} = '${2:appName}/${3:DuckName}/${1:ACTION_NAME}';
 
 ////////////
 /// Reducer
