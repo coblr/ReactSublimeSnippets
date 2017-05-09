@@ -2,9 +2,9 @@
 <content><![CDATA[
 import {fromJS} from 'immutable';
 
-import reducer, * as creators from './${1:ModuleName}';
+import reducer, * as actions from './${1:DuckName}';
 
-describe('${1:ModuleName} Module', () => {
+describe('${1:DuckName} Module', () => {
 	it('${2:name your test}', () => {
 		const state = fromJS({${3:key:values before the change}});
 		const action = creators.${4:nameOfFnToTest}(${5:anyPayload?});
